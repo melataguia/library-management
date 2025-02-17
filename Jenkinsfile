@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/votre_utilisateur/library-management.git'
+                git 'https://github.com/melataguia/library-management.git'
             }
         }
         stage('Build API') {
